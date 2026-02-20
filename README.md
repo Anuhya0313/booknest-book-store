@@ -46,55 +46,55 @@ This project allows users to manage books through a modern and responsive web in
 
 ## 📂 Project Structure
 
-booknest/
-│
-├── client/ # React Frontend (Vite)
-│ ├── src/
-│ ├── public/
-│ └── package.json
-│
-├── server/ # Node + Express Backend
-│ ├── routes/
-│ ├── models/
-│ └── package.json
-│
-└── README.md
+booknest/  
+│  
+├── client/ # React Frontend (Vite)  
+│ ├── src/  
+│ ├── public/  
+│ └── package.json   
+│   
+├── server/ # Node + Express Backend   
+│ ├── routes/  
+│ ├── models/  
+│ └── package.json  
+│  
+└── README.md    
 
 ---
 
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone Repository
-
-git clone https://github.com/Anuhya0313/booknest-book-store.git 
- cd booknest-book-store 
-
+```  
+git clone https://github.com/Anuhya0313/booknest-book-store.git   
+cd booknest-book-store  
+```
 
 ### 2️⃣ Install Backend Dependencies
-
-cd server 
-npm install 
-
+```
+cd server   
+npm install   
+```
 ### 3️⃣ Install Frontend Dependencies
-
-cd client 
-npm install 
-
+```
+cd client   
+npm install  
+```
 ### 4️⃣ Run Backend Server
-
- npm start 
-
+```
+ npm start  
+```
 ### 5️⃣ Run Frontend
 
-Open a new terminal:
-
-cd client 
-npm run dev 
-
+Open a new terminal: 
+```
+cd client  
+npm run dev  
+```
 ## 🌐 Application Runs On
 
-Frontend: http://localhost:5173
-Backend:  http://localhost:5000
+Frontend: http://localhost:5173  
+Backend:  http://localhost:5000  
 
 ## 🔮 Future Enhancements
 
@@ -112,7 +112,7 @@ Book Categories & Ratings
 
 ## 👩‍💻 Author
 
-Anuhya Perni
-B.Tech – Information Technology
-Full Stack MERN Developer
+Guna Anuhya Perni  
+B.Tech – Information Technology  
+Full Stack MERN Developer  
 
