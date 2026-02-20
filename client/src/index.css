@@ -1,0 +1,76 @@
+/* BACKGROUND GRADIENT */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  min-height: 100vh;
+}
+
+/* LIGHT GLASS CARDS */
+.card {
+  background: rgba(255, 255, 255, 0.92) !important;
+  border-radius: 18px;
+  border: none;
+  color: #111827;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+  backdrop-filter: blur(6px);
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+  color: #1d2671;
+  font-weight: 700;
+}
+
+/* INPUTS */
+input {
+  background: #ffffff !important;
+  color: #111827 !important;
+  border: 1px solid #c7d2fe !important;
+  border-radius: 10px;
+}
+
+input::placeholder {
+  color: #6b7280 !important;
+}
+
+/* BUTTON PRIMARY */
+.btn-primary {
+  background: linear-gradient(135deg, #667eea, #764ba2) !important;
+  border: none !important;
+  border-radius: 10px;
+}
+
+/* BUTTON SUCCESS */
+.btn-success {
+  background: linear-gradient(135deg, #22c55e, #16a34a) !important;
+  border: none !important;
+  border-radius: 10px;
+}
+
+/* BUTTON HOVER */
+.btn:hover {
+  opacity: 0.92;
+  transform: scale(1.02);
+  transition: 0.2s ease;
+}
+
+/* NAVBAR */
+.navbar {
+  background: linear-gradient(90deg, #0f172a, #1e293b) !important;
+}
+
+/* BOOK CARD ANIMATION */
+.book-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 35px rgba(0,0,0,0.35);
+}
+
+/* CART TEXT */
+hr {
+  border-color: rgba(255,255,255,0.4);
+}
